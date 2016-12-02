@@ -1,0 +1,213 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+	background-color: white;
+    border-radius: 1px;
+}
+ 
+::-webkit-scrollbar-thumb {
+	background-color: #412d8c;
+	opacity: 0.2;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+body,html{
+    height: 100%;
+}
+
+section.home{
+    height: 100%;
+    background-image: url(../images/bg-2.jpg);
+    background-size: cover;
+}
+
+section .mask{
+    height: 100%;
+    background-color: rgba(25, 33, 36, 0.2);
+}
+
+nav{
+    background-color: rgba(0,0,0,0);
+    box-shadow: none;
+}
+
+nav ul li a{
+    text-align: center;
+    padding: 0px;
+    font-family: "Josefin Slab" , sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+nav ul li.col{
+    padding: 0px !important;
+}
+
+section.home h3{
+    position: relative;
+    top: 0.75em;
+    font-family: "Inconsolata", sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+section.home h5{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    color: rgb(237, 237, 237);
+}
+
+section.home h4{
+    position: relative;
+    top: 4em;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+section.home h4 strong{
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+section.home .guide{
+    position: absolute;
+    bottom: -30px;
+    text-align: center;
+}
+
+.arrow{
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    transform: rotate(45deg);
+}
+
+.arrow img{
+    transform: rotate(-45deg);
+    height: 40px;
+    position: relative;
+    top: 9.5px;
+}
+
+section.about{
+    padding: 60px 0px;
+    height: 80%;    
+}
+
+section h4{
+    font-family: "Inconsolata" ,sans-serif;
+    text-align: center;
+    font-size: 3.5em;
+    line-height: 1.5;
+}
+
+section h4::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 20%;
+    margin-left: 40%;
+    background: #333;
+}
+
+section.about p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.25px;
+    word-spacing: 1px;
+    line-height: 1.65;
+}
+
+section.about img{
+    margin-top: 80px;
+}
+
+section.team{
+    min-height: 50%;
+    background-color:  rgba(211, 211, 211, 0.22);
+    padding: 20px 0px 50px 0px;
+}
+
+section.team .team-container{
+    margin-top: 0px;
+}
+
+section.team .card.col{
+    padding: 0px;
+}
+
+section.team .card{
+    box-shadow: none;
+    transition: 500ms;
+    margin: 5px 0px;
+    transform: scale(0.85);
+}
+
+section.team .card:hover{
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+section.team .card .card-image,section.team .card .card-image img{
+    height: 250px;
+}
+
+section.team .card-content h5{
+    margin-top: 5px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+section.team .card-content h6{
+    line-height: 1.5;
+    margin: 5px 0px;
+    text-align: center;
+}
+
+section.team .card i.fa{
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2;
+    color: darkslategray;
+}
