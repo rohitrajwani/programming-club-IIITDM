@@ -211,3 +211,63 @@ section.team .card i.fa{
     line-height: 2;
     color: darkslategray;
 }
+
+section.activities{
+    margin-top: -20px !important;
+    background-color: #2e2e2e;
+    padding-bottom: 50px;
+}
+
+section.activities h4{
+    margin: 50px 0px 30px 0px;
+    color: white;
+}
+
+section.activities h4:after{
+    background-color: white;
+}
+
+.cd-timeline-block.col{
+    padding: 0px;
+}
+
+.cd-timeline-img i.fa{
+    font-size: 1.5em;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    line-height: 2.5;
+    text-align: center;
+    color: white;
+}
+
+section.events{
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+section.events .events-container{
+    margin-top: 50px;
+}
+
+section.events .events-container .col{
+    padding: 0px 0.5px;
+}
+
+section.events .events-container a{
+    line-height: 0.75;
+}
+
+section.events .events-container img{
+    filter: grayscale(0%);
+    transition: 300ms;
+}
+
+section.events .events-container img:hover{
+    filter: grayscale(50%);
+}
+
+.modal-content h4{
+    font-size: 2.5em;
+}
